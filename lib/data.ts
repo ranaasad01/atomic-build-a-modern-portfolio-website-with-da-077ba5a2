@@ -1,44 +1,44 @@
-export type NavLink = {
-  label: string;
-  href: string;
-};
-
-export const navLinks: NavLink[] = [
-  { label: "Home", href: "/" },
-  { label: "About", href: "#about" },
-  { label: "Skills", href: "#skills" },
-  { label: "Projects", href: "#projects" },
-  { label: "Contact", href: "#contact" },
-];
-
-export const ctaLink = {
-  label: "Hire Me",
-  href: "#contact",
-};
-
-export const brand = {
-  name: "Rana  Asad",
-  initials: "AM",
-  tagline: "Creative Developer",
-  description:
-    "Full-stack developer crafting digital experiences at the intersection of design and engineering.",
-  email: "hello@alexmercer.dev",
-  github: "https://github.com",
-  linkedin: "https://linkedin.com",
-  twitter: "https://twitter.com",
-};
-
-export type Project = {
-  id: string;
-  title: string;
-  description: string;
-  tags: string[];
-  image: string;
-  href: string;
-  featured?: boolean;
-};
-
-export type Skill = {
-  category: string;
-  items: string[];
+export type NavLink = {
+  label: string;
+  href: string;
+};
+
+export const navLinks: NavLink[] = [
+  { label: "Home", href: "/" },
+  { label: "About", href: "#about" },
+  { label: "Skills", href: "#skills" },
+  { label: "Projects", href: "#projects" },
+  { label: "Contact", href: "#contact" },
+];
+
+export const ctaLink = {
+  label: "Hire Me",
+  href: "#contact",
+};
+
+export const brand = {
+  name: "Rana  Asad",
+  initials: "AM",
+  tagline: "Creative Developer",
+  description:
+    "Full-stack developer crafting digital experiences at the intersection of design and engineering.",
+  email: "hello@alexmercer.dev",
+  github: "https://github.com",
+  linkedin: "https://linkedin.com",
+  twitter: "https://twitter.com",
+};
+
+export type Project = {
+  id: string;
+  title: string;
+  description: string;
+  tags: string[];
+  image: string;
+  href: string;
+  featured?: boolean;
+};
+
+export type Skill = {
+  category: string;
+  items: string[];
 };
